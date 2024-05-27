@@ -44,4 +44,3 @@ When('eu realizar a busca do {string}', (string2) => {
 Then('devo receber resultados com a {string}', (string2) => {
 	cy.get('#rcnt').should('contain', string2)
 });
-
