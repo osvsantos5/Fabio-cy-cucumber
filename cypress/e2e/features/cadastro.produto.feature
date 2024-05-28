@@ -3,7 +3,7 @@ Funcionalidade: Cadastro de produtos
 Eu como admin do sistema serverest
 Quero cadastrar produtos
 Para ter um estoque
-
+@alto @produtos  @smoke
 Cenário: Cadastro de produtos com sucesso
 Dado que eu esteja na tela de cadastro de produtos
 Quando eu inseir <nome>, <preco>, <descricao>, <quantidade>

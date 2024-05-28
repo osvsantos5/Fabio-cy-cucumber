@@ -15,5 +15,8 @@ module.exports = defineConfig({
     setupNodeEvents,
     baseUrl: 'https://front.serverest.dev/'
   },
-  
+  env: {
+    TAGS: 'not @ignore',
+  },
+  videos: true
 });
